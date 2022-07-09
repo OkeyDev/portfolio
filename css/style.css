@@ -1,0 +1,664 @@
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Black.woff2") format("woff2"), url("../fonts/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-BlackItalic.woff2") format("woff2"), url("../fonts/Gilroy-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-ExtraboldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-HeavyItalic.woff2") format("woff2"), url("../fonts/Gilroy-HeavyItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-MediumItalic.woff2") format("woff2"), url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-RegularItalic.woff2") format("woff2"), url("../fonts/Gilroy-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-SemiboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Thin.woff2") format("woff2"), url("../fonts/Gilroy-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ThinItalic.woff2") format("woff2"), url("../fonts/Gilroy-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"), url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"), url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  background-color: white;
+  margin: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p-lr {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.lang-selector {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  -ms-writing-mode: sideways-lr;
+      writing-mode: sideways-lr;
+  text-orientation: sideways;
+}
+
+.lang-selector .item {
+  cursor: pointer;
+  color: #828282;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.lang-selector .item:hover {
+  color: #000;
+}
+
+.lang-selector .item.active {
+  color: #000;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.alt-title {
+  font-family: "Gilroy", sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  color: #070707;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.bg-secondary {
+  background: #F6F6F6;
+}
+
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar .container {
+  padding: 33px 2px;
+  border-bottom: 1px solid #828282;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #828282;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #070707;
+}
+
+.nav-link.active {
+  color: #070707;
+}
+
+.navbar-toggler {
+  background: transparent;
+  border: none;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  height: 4px;
+  width: 33px;
+  margin: 4px;
+  background-color: #000;
+}
+
+.navbar .lang-selector {
+  display: none;
+}
+
+.author-name {
+  font-family: "Gilroy", sans-serif;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #070707;
+  /* Black */
+  margin: 0;
+}
+
+.author-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 40px 0;
+}
+
+.author-row > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.author-image-wrapper {
+  box-sizing: content-box;
+  position: relative;
+  height: 387px;
+  overflow: hidden;
+  width: 100%;
+  background-color: gray;
+  background-image: url("../img/denis.png");
+  background-position: 50% 43%;
+  background-origin: content-box;
+  background-size: 100%;
+  margin-bottom: 104px;
+}
+
+.about {
+  padding: 120px 0 107px;
+}
+
+.about-text {
+  margin: auto;
+  max-width: 485px;
+}
+
+.about-text p {
+  margin: 0;
+}
+
+.about-text p:nth-child(2) {
+  margin: 43px 0;
+}
+
+.skills {
+  padding: 91px 0 30px;
+}
+
+.skills-text {
+  margin: 68px 0 40px;
+}
+
+.skill-list {
+  padding: 40px 0;
+}
+
+.stars {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.instrument-img {
+  height: 90px;
+}
+
+.instrument-name {
+  margin: 23px auto 40px;
+  max-width: 80px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.stars {
+  width: 166px;
+}
+
+.stars .star {
+  height: 26px;
+  width: 26px;
+  font-size: 20px;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.stars .star > i {
+  line-height: 26px;
+}
+
+.stars .star.active {
+  color: #070707;
+}
+
+.skill-item {
+  margin: 40px 0;
+}
+
+.projects {
+  padding: 112px 0 96px;
+}
+
+.projects figure {
+  margin: 0;
+}
+
+.projects-list {
+  margin-top: 47px;
+}
+
+.project {
+  margin-bottom: 99px;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project-image {
+  width: 100%;
+  margin-bottom: 2.5em;
+}
+
+.project-link {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
+}
+
+.contact {
+  padding: 114px 0 123px;
+}
+
+.contact .content {
+  margin: 0 auto;
+  max-width: 342px;
+}
+
+.contact p:last-child {
+  margin: 0;
+}
+
+.contact-text {
+  margin: 20px 0 30px;
+}
+
+.btn {
+  display: inline-block;
+  box-shadow: none;
+}
+
+.send-btn {
+  font-size: 1.125rem;
+  line-height: 1;
+  font-weight: 700;
+  background-color: #070707;
+  text-decoration: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.contact-list {
+  margin: 85px 0 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-list .contact-item {
+  width: 35px;
+  height: 35px;
+  font-size: 2.5rem;
+}
+
+.contact-list .contact-item > i {
+  line-height: 0.85;
+}
+
+.contact-list .contact-item.item-require-border {
+  position: relative;
+  border-radius: 9px;
+  border: 3px solid #070707;
+  font-size: 20px;
+}
+
+.contact-list .contact-item.item-require-border > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lightweight-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+@media screen and (max-width: 1004px) {
+  .container {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .skill-list > * {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .lang-selector {
+    display: block;
+    position: absolute;
+    right: 28px;
+    bottom: 57px;
+    -ms-writing-mode: sideways-rl;
+        writing-mode: sideways-rl;
+    font-size: 34px;
+  }
+
+  .navbar .container {
+    border: none;
+  }
+
+  .navbar-collapse {
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-collapse {
+    display: block;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 2;
+    overflow: auto;
+    transition: 0.5s ease;
+  }
+
+  .navbar-collapse.open {
+    top: 0;
+  }
+
+  .navbar-nav {
+    display: block;
+    margin: 66px auto auto auto;
+  }
+
+  .nav-item {
+    margin: 68px 0;
+  }
+
+  .nav-item .nav-link {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 30px;
+    top: 68px;
+    box-sizing: content-box;
+    display: block;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .navbar-toggler > span {
+    transition: all 0.5s ease;
+  }
+
+  .open.navbar-toggler {
+    position: fixed;
+  }
+
+  .open.navbar-toggler span:nth-child(1) {
+    transform: rotate(45deg) translate(5.5px, 5.5px);
+  }
+
+  .open.navbar-toggler span:nth-child(2) {
+    transform: translateX(-30px);
+    background: transparent;
+  }
+
+  .open.navbar-toggler span:nth-child(3) {
+    transform: rotate(-45deg) translate(5.5px, -5.5px);
+  }
+
+  .navbar > .container {
+    border: 0;
+  }
+
+  .navbar {
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .page-top {
+    margin-top: 65px;
+  }
+
+  .author .lang-selector {
+    display: none;
+  }
+
+  .author-row {
+    display: block;
+  }
+
+  .author-description {
+    margin-top: 23px;
+  }
+
+  .author-image-wrapper {
+    background-position: 50% 45%;
+    background-size: 110%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .author-image-wrapper {
+    height: 478px;
+    background-position: 50% 70%;
+    background-size: 120%;
+  }
+
+  .skill-list {
+    flex-direction: column;
+  }
+
+  .skill-list > * {
+    flex-basis: 100%;
+  }
+}
+
+.webp .author-image-wrapper { background-image: url(../img/denis.webp); }
